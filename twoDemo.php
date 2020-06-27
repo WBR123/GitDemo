@@ -1,3 +1,0 @@
-<?php
-Holle world!!!!
->
