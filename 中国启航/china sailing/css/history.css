@@ -1,0 +1,144 @@
+
+	body{
+		margin:0;
+		padding:0;
+		min-width:1336px;
+	}
+		.qhcomment {
+            width: 1000px;
+            margin: 0 auto;
+        }
+.navigation{
+		position:absolute;
+		width:1000px;
+		height:0px;
+		background:rgba(0,0,0,0.1);
+		z-index:100;
+		margin: 0 auto;
+	}
+	.navigation .nvalist{/*导航栏*/
+		width:990px;
+		height:47px;
+		/*border:1px solid green;*/
+		/*margin-left:450px;*/
+		margin-top:24px;
+	}
+	.navigation .nvalist li{
+		display:blck;
+		width:90px;
+		height:30px;
+		/*border:1px solid red;*/
+		list-style:none;
+		float:left;
+		margin-left:60px;
+		padding:8px 8px;
+		border-radius:5px;
+        /*z-index:auto;*/
+	}
+	.navigation .nvalist li a{
+		display:inline-block;
+		position:absolute;
+		top:28px;
+		width:127px;
+		height:42px;
+		padding:4px;
+		margin-left:-23px;
+		line-height:30px;
+		/*border:1px solid red;*/
+		text-align:center;
+		text-decoration:none;
+		font-size:20px;
+		color:#FFF;
+		font-weight:600;
+		border-radius:5px;
+		font-family:"Comic Sans MS", cursive;
+	}
+	.navigation .nvalist li:hover{
+		border-radius:5px;		
+		border-bottom:2.5px solid #F60;
+	}
+
+    	.search_box{
+		position:absolute;
+		left: 900px;
+		top: 15px;
+		/*width:253px;*/
+		/*height:50px;*/
+		border-bottom:2px solid #fff;
+		border-radius:0 0 8px 8px;
+		
+		/*border:1px solid red;*/
+		/*margin-top:-26px;*/
+		/*top:50px;*/
+		/*right:230px;*/
+		
+		/*z-index:110;*/
+	}
+	.search_box span{
+		display:inline-block;
+		position:absolute;
+		right:5px;
+		top:50%;
+		margin-top:-6px;
+		width:29px;
+		height:28px;
+		cursor:pointer;
+		/*background:#fff;*/
+	}
+	.search_box input[type=text]{
+		display:inline-block;
+		width:300px;
+		height:50px;
+		text-indent:2em;
+		/*border:1px solid #fff;*/
+		top:0px;
+		background:none;
+		border:none;
+		color:#fff;
+	}
+	.search_box input[type=submit]{
+		display:inline-block;
+		position:absolute;
+		width:71px;
+		height:52px;
+		top:0px;
+		border:none;
+		right:0px;		
+		color:#fff;
+		font-family:'微软雅黑';
+		font-weight:bold;
+		font-size:1.8em;
+		background:none;
+	}
+	.iconfont{
+		font-size:12px;
+	}
+    #logo {
+    position: absolute;
+    top: 10px;
+    left: -250px;
+    width: 280px;
+    height: 84px;
+    /*border:1px solid red;*/
+    z-index: 9;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #logo a {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        color: #FC9;
+        text-decoration: none;
+        line-height: 67px;
+        font-family: "Comic Sans MS", cursive;
+    }
+		.pcebter{
+			width:1310px;
+			margin:auto;
+		}
+			
+    /* CSS Document */
+
